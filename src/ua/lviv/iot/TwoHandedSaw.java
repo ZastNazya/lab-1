@@ -1,9 +1,9 @@
 package ua.lviv.iot;
 
-public class TwoHandedSaw  {
+public class TwoHandedSaw implements Comparable<TwoHandedSaw>  {
     protected int Mass;
-    protected String Material;
-    public TwoHandedSaw(int Mass, String Material) {
+    protected Materials Material;
+    public TwoHandedSaw(int Mass, Materials Material) {
         this.Material = Material;
         this.Mass=Mass;
     }
@@ -13,11 +13,21 @@ public class TwoHandedSaw  {
     public int GetMass(){
         return Mass;
     }
-    public void SetMaterial(String Material){
+    public void SetMaterial(Materials Material){
         this.Material=Material;
     }
-    public String GetMaterial(){
+    public Materials GetMaterial(){
         return Material;
     }
 
+    @Override
+    public String toString() {
+        return "TwoHandedSaw";
+    }
+
+    @Override
+    public int compareTo(TwoHandedSaw o) {
+        TwoHandedSaw a = o;
+        return this.Mass - a.Mass;
+    }
 }
