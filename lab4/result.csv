@@ -1,0 +1,12 @@
+mass, materials, type
+7, Titan, ToolsForTree
+mass, materials, type
+8, Aluminum, ToolsForRock
+mass, materials, type
+9, Brass, ToolsForLand
+mass, materials, type
+10, Iron, ToolsForRock
+mass, materials, type
+10, Aluminum, ToolsForLand
+mass, materials, type
+12, Steel, ToolsForTree

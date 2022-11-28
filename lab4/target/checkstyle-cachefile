@@ -1,0 +1,5 @@
+#Mon Nov 28 02:03:06 EET 2022
+configuration*?=A402A551AA914DF56162D95AA20EDC3D3133D7EE
+module-resource*?\:checkstyle-xpath-suppressions.xml=D0838C2E44BC6B7F42A01D4C6E25D28035DD9B38
+module-resource*?\:checkstyle-suppressions.xml=2640D58D772D836E41912837B94CDA20EF48D7F6
+/Users/nazar/Desktop/JavaProjects/lab4/src/main/java/ua/lviv/iot/SortByMaterials.java=1669593489808
